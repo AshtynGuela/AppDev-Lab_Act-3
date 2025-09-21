@@ -48,6 +48,6 @@ console.log(`${i * number}`);
 console.log(`\n\n||Base Number value is ${base_number}|| ||Student ID is 2024-01-05836||\n`);
 console.log(`#1: The grade calculated is ${calculateGrade(base_number)}\n`);
 showStars(base_number);
-process.stdout.write("\n#3: "+ isPrime(base_number)); 
-console.log(`\n\n#4: Multiplication Table of ${base_number}:`);
+console.log("\n#3: "+ isPrime(base_number)); 
+console.log(`\n#4: Multiplication Table of ${base_number}:`);
 multiplicationTable(base_number);
